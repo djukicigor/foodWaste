@@ -1,0 +1,366 @@
+[
+  {
+    "State": "Alabama",
+    "Population": "4,858,979",
+    "Food Waste/State in Kg": 510192795,
+    "foodWaste": 1124781240,
+    "kWhrs Produced": 168717186
+  },
+  {
+    "State": "Alaska",
+    "Population": "738,432",
+    "Food Waste/State in Kg": 77535360,
+    "foodWaste": 170936005.4,
+    "kWhrs Produced": 25640400.8
+  },
+  {
+    "State": "Arizona",
+    "Population": "6,828,065",
+    "Food Waste/State in Kg": 716946825,
+    "foodWaste": 1580595309,
+    "kWhrs Produced": 237089296.4
+  },
+  {
+    "State": "Arkansas",
+    "Population": "2,978,204",
+    "Food Waste/State in Kg": 312711420,
+    "foodWaste": 689409850.8,
+    "kWhrs Produced": 103411477.6
+  },
+  {
+    "State": "California",
+    "Population": "39,144,818",
+    "Food Waste/State in Kg": 4110205890,
+    "foodWaste": 9061442109,
+    "kWhrs Produced": 1359216316
+  },
+  {
+    "State": "Colorado",
+    "Population": "5,456,574",
+    "Food Waste/State in Kg": 572940270,
+    "foodWaste": 1263115578,
+    "kWhrs Produced": 189467336.7
+  },
+  {
+    "State": "Connecticut",
+    "Population": "3,590,886",
+    "Food Waste/State in Kg": 377043030,
+    "foodWaste": 831236604.8,
+    "kWhrs Produced": 124685490.7
+  },
+  {
+    "State": "Delaware",
+    "Population": "945,934",
+    "Food Waste/State in Kg": 99323070,
+    "foodWaste": 218969626.6,
+    "kWhrs Produced": 32845443.99
+  },
+  {
+    "State": "District of Columbia",
+    "Population": "672,228",
+    "Food Waste/State in Kg": 70583940,
+    "foodWaste": 155610765.8,
+    "kWhrs Produced": 23341614.87
+  },
+  {
+    "State": "Florida",
+    "Population": "20,271,272",
+    "Food Waste/State in Kg": 2128483560,
+    "foodWaste": 4692497426,
+    "kWhrs Produced": 703874613.9
+  },
+  {
+    "State": "Georgia",
+    "Population": "10,214,860",
+    "Food Waste/State in Kg": 1072560300,
+    "foodWaste": 2364587889,
+    "kWhrs Produced": 354688183.3
+  },
+  {
+    "State": "Hawaii",
+    "Population": "1,431,603",
+    "Food Waste/State in Kg": 150318315,
+    "foodWaste": 331394763.6,
+    "kWhrs Produced": 49709214.54
+  },
+  {
+    "State": "Idaho",
+    "Population": "1,654,930",
+    "Food Waste/State in Kg": 173767650,
+    "foodWaste": 383091636.5,
+    "kWhrs Produced": 57463745.48
+  },
+  {
+    "State": "Illinois",
+    "Population": "12,859,995",
+    "Food Waste/State in Kg": 1350299475,
+    "foodWaste": 2976897229,
+    "kWhrs Produced": 446534584.3
+  },
+  {
+    "State": "Indiana",
+    "Population": "6,619,680",
+    "Food Waste/State in Kg": 695066400,
+    "foodWaste": 1532357287,
+    "kWhrs Produced": 229853593
+  },
+  {
+    "State": "Iowa",
+    "Population": "3,123,899",
+    "Food Waste/State in Kg": 328009395,
+    "foodWaste": 723136072.4,
+    "kWhrs Produced": 108470410.9
+  },
+  {
+    "State": "Kansas",
+    "Population": "2,911,641",
+    "Food Waste/State in Kg": 305722305,
+    "foodWaste": 674001508,
+    "kWhrs Produced": 101100226.2
+  },
+  {
+    "State": "Kentucky",
+    "Population": "4,425,092",
+    "Food Waste/State in Kg": 464634660,
+    "foodWaste": 1024342864,
+    "kWhrs Produced": 153651429.6
+  },
+  {
+    "State": "Louisiana",
+    "Population": "4,670,724",
+    "Food Waste/State in Kg": 490426020,
+    "foodWaste": 1081203012,
+    "kWhrs Produced": 162180451.8
+  },
+  {
+    "State": "Maine",
+    "Population": "1,329,328",
+    "Food Waste/State in Kg": 139579440,
+    "foodWaste": 307719625,
+    "kWhrs Produced": 46157943.75
+  },
+  {
+    "State": "Maryland",
+    "Population": "6,006,401",
+    "Food Waste/State in Kg": 630672105,
+    "foodWaste": 1390392336,
+    "kWhrs Produced": 208558850.4
+  },
+  {
+    "State": "Massachusetts",
+    "Population": "6,794,422",
+    "Food Waste/State in Kg": 713414310,
+    "foodWaste": 1572807456,
+    "kWhrs Produced": 235921118.4
+  },
+  {
+    "State": "Michigan",
+    "Population": "9,922,576",
+    "Food Waste/State in Kg": 1041870480,
+    "foodWaste": 2296928498,
+    "kWhrs Produced": 344539274.6
+  },
+  {
+    "State": "Minnesota",
+    "Population": "5,489,594",
+    "Food Waste/State in Kg": 576407370,
+    "foodWaste": 1270759216,
+    "kWhrs Produced": 190613882.4
+  },
+  {
+    "State": "Mississippi",
+    "Population": "2,992,333",
+    "Food Waste/State in Kg": 314194965,
+    "foodWaste": 692680503.7,
+    "kWhrs Produced": 103902075.6
+  },
+  {
+    "State": "Missouri",
+    "Population": "6,083,672",
+    "Food Waste/State in Kg": 638785560,
+    "foodWaste": 1408279421,
+    "kWhrs Produced": 211241913.2
+  },
+  {
+    "State": "Montana",
+    "Population": "1,032,949",
+    "Food Waste/State in Kg": 108459645,
+    "foodWaste": 239112302.6,
+    "kWhrs Produced": 35866845.38
+  },
+  {
+    "State": "Nebraska",
+    "Population": "1,896,190",
+    "Food Waste/State in Kg": 199099950,
+    "foodWaste": 438939731.8,
+    "kWhrs Produced": 65840959.77
+  },
+  {
+    "State": "Nevada",
+    "Population": "2,890,845",
+    "Food Waste/State in Kg": 303538725,
+    "foodWaste": 669187543.9,
+    "kWhrs Produced": 100378131.6
+  },
+  {
+    "State": "New Hampshire",
+    "Population": "1,330,608",
+    "Food Waste/State in Kg": 139713840,
+    "foodWaste": 308015925.9,
+    "kWhrs Produced": 46202388.89
+  },
+  {
+    "State": "New Jersey",
+    "Population": "8,958,013",
+    "Food Waste/State in Kg": 940591365,
+    "foodWaste": 2073646535,
+    "kWhrs Produced": 311046980.3
+  },
+  {
+    "State": "New Mexico",
+    "Population": "2,085,109",
+    "Food Waste/State in Kg": 218936445,
+    "foodWaste": 482671665.4,
+    "kWhrs Produced": 72400749.81
+  },
+  {
+    "State": "New York",
+    "Population": "19,795,791",
+    "Food Waste/State in Kg": 2078558055,
+    "foodWaste": 4582430659,
+    "kWhrs Produced": 687364598.9
+  },
+  {
+    "State": "North Carolina",
+    "Population": "10,042,802",
+    "Food Waste/State in Kg": 1054494210,
+    "foodWaste": 2324759025,
+    "kWhrs Produced": 348713853.8
+  },
+  {
+    "State": "North Dakota",
+    "Population": "756,927",
+    "Food Waste/State in Kg": 79477335,
+    "foodWaste": 175217322.3,
+    "kWhrs Produced": 26282598.34
+  },
+  {
+    "State": "Ohio",
+    "Population": "11,613,423",
+    "Food Waste/State in Kg": 1219409415,
+    "foodWaste": 2688334384,
+    "kWhrs Produced": 403250157.7
+  },
+  {
+    "State": "Oklahoma",
+    "Population": "3,911,338",
+    "Food Waste/State in Kg": 410690490,
+    "foodWaste": 905416468.1,
+    "kWhrs Produced": 135812470.2
+  },
+  {
+    "State": "Oregon",
+    "Population": "4,028,977",
+    "Food Waste/State in Kg": 423042585,
+    "foodWaste": 932648143.7,
+    "kWhrs Produced": 139897221.6
+  },
+  {
+    "State": "Pennsylvania",
+    "Population": "12,802,503",
+    "Food Waste/State in Kg": 1344262815,
+    "foodWaste": 2963588687,
+    "kWhrs Produced": 444538303.1
+  },
+  {
+    "State": "Rhode Island",
+    "Population": "1,056,298",
+    "Food Waste/State in Kg": 110911290,
+    "foodWaste": 244517248.2,
+    "kWhrs Produced": 36677587.22
+  },
+  {
+    "State": "South Carolina",
+    "Population": "4,896,146",
+    "Food Waste/State in Kg": 514095330,
+    "foodWaste": 1133384846,
+    "kWhrs Produced": 170007727
+  },
+  {
+    "State": "South Dakota",
+    "Population": "858,469",
+    "Food Waste/State in Kg": 90139245,
+    "foodWaste": 198722782.3,
+    "kWhrs Produced": 29808417.35
+  },
+  {
+    "State": "Tennessee",
+    "Population": "6,600,299",
+    "Food Waste/State in Kg": 693031395,
+    "foodWaste": 1527870874,
+    "kWhrs Produced": 229180631.1
+  },
+  {
+    "State": "Texas",
+    "Population": "27,469,114",
+    "Food Waste/State in Kg": 2884256970,
+    "foodWaste": 6358690601,
+    "kWhrs Produced": 953803590.2
+  },
+  {
+    "State": "Utah",
+    "Population": "2,995,919",
+    "Food Waste/State in Kg": 314571495,
+    "foodWaste": 693510609.3,
+    "kWhrs Produced": 104026591.4
+  },
+  {
+    "State": "Vermont",
+    "Population": "626,042",
+    "Food Waste/State in Kg": 65734410,
+    "foodWaste": 144919395,
+    "kWhrs Produced": 21737909.25
+  },
+  {
+    "State": "Virginia",
+    "Population": "8,382,993",
+    "Food Waste/State in Kg": 880214265,
+    "foodWaste": 1940537973,
+    "kWhrs Produced": 291080695.9
+  },
+  {
+    "State": "Washington",
+    "Population": "7,170,351",
+    "Food Waste/State in Kg": 752886855,
+    "foodWaste": 1659829418,
+    "kWhrs Produced": 248974412.7
+  },
+  {
+    "State": "West Virginia",
+    "Population": "1,844,128",
+    "Food Waste/State in Kg": 193633440,
+    "foodWaste": 426888154.5,
+    "kWhrs Produced": 64033223.17
+  },
+  {
+    "State": "Wisconsin",
+    "Population": "5,771,337",
+    "Food Waste/State in Kg": 605990385,
+    "foodWaste": 1335978523,
+    "kWhrs Produced": 200396778.4
+  },
+  {
+    "State": "Wyoming",
+    "Population": "586,107",
+    "Food Waste/State in Kg": 61541235,
+    "foodWaste": 135675037.5,
+    "kWhrs Produced": 20351255.63
+  },
+  {
+    "State": "Puerto Rico",
+    "Population": "3,474,182",
+    "Food Waste/State in Kg": 364789110,
+    "foodWaste": 804221367.7,
+    "kWhrs Produced": 120633205.2
+  }
+]

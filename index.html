@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Food Waste</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+	<body>
+		<header> <!-- Heder Start -->
+			<h1>F<span class="fork">O</span><span class="knife">O</span>D WASTE IN YOUR STATE:</h1>
+			<h2>THE P<span class="lightning">O</span>WER OF YOUR GARBAGE PAIL</h2>
+			<p>Select a State To See What the Energy of It's Food Waste Can Power</p>
+		</header> <!-- Header End -->
+		<div class="content"> <!-- Content Start -->
+			<div class="row">
+				<div class="col-sm-7">
+					<div id="tooltip"></div><!-- div to hold tooltip. -->
+					<svg width="480" height="300" viewBox="120 0 630 630" preserveAspectRatio="xMidYMid meet"  id="statesvg"></svg> <!-- svg to hold the map. -->
+				</div>
+				<div class="col-sm-5 description_div">
+					<img src="assets/images/fish.svg" alt="No fish found" />
+					<p class="foodWasteP">
+						
+					</p>
+					<hr class="line">
+					<p class="hourPowerP">
+						
+					</p>
+				</div>
+			</div>
+		</div> <!-- Content End -->
+		<footer align="center"> <!-- Footer Start -->
+			<button class="changeOptions" type="button" name="button">SEE MORE OPTIONS</button>
+			<img src="assets/images/footer-img.svg" alt="No image" />
+		</footer> <!-- Footer End -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/uStates.js"></script> <!-- creates uStates. -->
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script>
+
+		function tooltipHtml(n, d){	/* function to create html content string in tooltip div. */
+			return "<h4>"+n+"</h4>";
+		}
+
+		var sampleData ={};	/* Sample random data. */
+
+		/* draw states on id #statesvg */
+		uStates.draw("#statesvg", sampleData, tooltipHtml);
+
+		d3.select(self.frameElement).style("height", "600px");
+	</script>
+	</body>
+</html>

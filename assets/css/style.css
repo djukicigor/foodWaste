@@ -1,0 +1,315 @@
+/**** How to measure CSS ****/
+
+/**** Reset Css *****/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background: url();
+}
+
+/***
+# ALL CONTENT
+# Importing
+# Header
+# Content
+# Footer
+***/
+
+html body {
+	margin: 0 auto;
+}
+
+body{
+	max-width: 800px;
+	font-family: "Roboto";
+	background-image: url("../images/background.svg");
+	background-size: contain;
+	padding: 15px;
+
+}
+
+
+/***
+# Importing
+***/
+
+
+/***
+# Header
+***/
+header{
+	background-image: url("../images/header-bg.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 132px;
+	padding-top: 16px;
+}
+
+header h1,header h2{
+	color: #8dd124;
+	font-size: 32px;
+	text-align: center;
+	margin: 0;
+	color: #6A9D1B;
+}
+
+header h1{
+	font-weight: bold;
+}
+
+header p{
+	color: #8dd124;
+	font-size: 16px;
+	text-align: center;
+    font-family: "Roboto";
+    margin-top: -5px;
+}
+
+header .fork{
+	background-image: url(../images/fork.svg);
+	background-repeat: no-repeat;
+	background-size: 3px;
+    background-position: center 11px;
+}
+
+header .knife{
+	background-image: url(../images/knife.svg);
+	background-size: 2.5px;
+    background-position: 12px 9px;
+	background-repeat: no-repeat;
+}
+
+header .lightning{
+	background-image: url(../images/lightning.svg);
+    background-size: 7.5px;
+    background-position: center 11px;
+    background-repeat: no-repeat;
+}
+
+/***
+# Content
+***/
+
+.content{
+	position: relative;
+    border-right: 4px solid #8dd124;
+    top: -23px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+	border-radius: 3px;
+    min-height: 430px;
+}
+
+.content .description_div{
+	text-align: center;
+	padding-right: 30px;
+	width: 38.5%;
+}
+
+.content img{
+	width: 60px;
+}
+
+.content p{
+	font-size: 17px;
+	color: #8dd124;
+	padding: 25px 10px;
+	margin: 0;
+	font-family: "Roboto";
+
+}
+
+.content .description_div p:nth-child(2){
+	padding: 25px 32px;
+}
+
+.content p span{
+	font-weight: bold;
+	color: #6A9D1B;
+}
+
+.line {
+	opacity: 0;
+}
+
+.content hr{
+	border: none;
+    height: 2px;
+    width: 200px;
+    background-color: #c37139;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.content .col-sm-7{
+	width: 61.5%;
+}
+
+
+/***
+# Footer
+***/
+
+
+footer{
+	border-left: 4px solid #8dd124;
+    border-top: 4px solid #8dd124;
+	margin-top: -26px;
+	border-radius: 3px;
+}
+
+footer button{
+	border: 0;
+    background-color: transparent;
+    background-image: url(../images/button.svg);
+    width: 218px;
+    height: 57px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -30px;
+    font-family: "Roboto";
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all linear 200ms;
+}
+
+footer button:focus{
+	outline: none;
+}
+
+footer img{
+	position: relative;
+    top: 15px;
+    left: -2px;
+}
+
+/***
+# MAP
+***/
+
+.state{
+	fill: #fff;
+	stroke: #8dd124;
+	stroke-width: 1;
+	transition: all linear 200ms;
+}
+.state:hover{
+	fill: #8dd124 !important;
+}
+#tooltip {
+	position: absolute;
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+	font: 12px sans-serif;
+	background: lightsteelblue;
+	border: 1px;
+	border-radius: 2px;
+	pointer-events: none;
+}
+#tooltip h4{
+	margin:0;
+	font-size:14px;
+}
+#tooltip{
+    background: #8dd124;
+    border: 3px solid #e6e7e8;
+    border-radius: 5px;
+    font-size: 20px !important;
+    width: auto;
+    padding: 7px;
+    color: white;
+    opacity: 0;
+    font-family: "Roboto";
+    font-weight: bold;
+    transition: all linear 100ms;
+}
+#tooltip table{
+	table-layout:fixed;
+}
+#tooltip tr td{
+	padding:0;
+	margin:0;
+}
+#tooltip tr td:nth-child(1){
+	width:50px;
+}
+#tooltip tr td:nth-child(2){
+	text-align:center;
+}
+
+/*** Responsive ***/
+
+/* Smaller than 750px */
+@media (max-width: 750px) {
+	header {
+		background-image: none;
+		padding: 12px;
+	    padding-top: 16px;
+	    background-size: 1200px;
+	    border: 4px solid #8dd124;
+	    border-right: none;
+	    border-radius: 5px;
+    	height: inherit;
+	}
+	.content{
+		top: -4px;
+	}
+	footer{
+		margin-top: -7px;
+	}
+	footer img{
+		top: 5px;
+	}
+	.col-sm-7{
+		text-align: center;
+		width: 100%;
+	}
+	.content .description_div{
+		width: 100%;
+	}
+}
